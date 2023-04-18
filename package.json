@@ -1,0 +1,16 @@
+{
+  "name": "clash-parser",
+  "version": "0.0.0",
+  "devDependencies": {
+    "wrangler": "^2.16.0"
+  },
+  "private": true,
+  "scripts": {
+    "start": "wrangler dev",
+    "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "js-base64": "^3.7.5",
+    "js-yaml": "^4.1.0"
+  }
+}
